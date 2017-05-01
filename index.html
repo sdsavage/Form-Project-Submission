@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <title>Online Registration Form</title>
+  </head>
+ 
+ <body>
+	
+		<div class="title">
+			<h1>THE CODE REVIEW</h1>
+		</div>
+		<div class="signup">
+			<h2>Signup for our newsletter</h2>
+			<p class="inbox">Get the latest news on how your code is doing right in your inbox</p>
+		</div>
+	
+	
+	<form>
+		<fieldset id="contact-info">
+			<legend>Contact Information</legend>
+			<label for="name">Full Name</label>
+			<input type="text" id="name" name="user_name" placeholder="Required" required>
+			<label for="email">Email Address</label>
+			<input type="text" id="email" name="user_email" placeholder="Required" required>
+			<label for="phone">Phone Number</label>
+			<input type="text" id="phone" name="user_phone" placeholder=" (555)-555-0055">
+			<label for="address">Street Address</label>
+			<input type="text" id="address" name="user_address">
+			<label for="city">City</label>
+			<input type="text" id="city" name="user_city">
+			<label for="state">State</label>
+			<select id="state" name="user_state">
+				<option value="" selected disabled>Choose State</option>
+				<optgroup label="States">
+					<option value="Louisiana">Louisiana</option>
+					<option value="Connecticut">Connecticut</option>
+					<option value="Vermont">Vermont</option>
+					<option value="New York">New York</option>
+					<option value="California">California</option>
+				</optgroup>
+				<optgroup label="Cities">
+					<option value="New Orleans">New Orleans</option>
+					<option value="Hartford">Hartford</option>
+					<option value="Brattleboro">Brattleboro</option>
+          <option value="Saratoga">Saratoga</option>
+          <option value="Los Angeles">Los Angeles</option>
+				</optgroup>
+			</select><br>
+			<label for="zipcode">Zip Code</label>
+			<input type="text" id="zipcode" name="user_zipcode" placeholder=" 00000"><br>
+		</fieldset>
+		
+		<fieldset id="newsletter">
+			
+			<legend>Newsletter</legend>
+
+			<label>Select the newsletters you would like to recieve</label><br>
+			<input type="checkbox" id="html" value="html_news" name="user_news"><label for="html">HTML News</label><br>
+			<input type="checkbox" id="css" value="css_news" name="user_news"><label for="css">CSS News</label><br>
+			<input type="checkbox" id="java" value="java_news" name="user_news"><label for="java">Javascript News</label><br>
+			
+			
+			
+			<label>Newsletter format</label><br>
+			<input type="Radio" id="html_news" name="html_news"><label for="html_news">HTML</label><br>
+			
+			<input type="Radio" id="plaintext" name="plaintext"><label for="plaintext">Plain Text</label><br>
+			
+			<label for="topics">Other topics you'd like to hear about</label><br>
+			<textarea id="topics" name="topics1"></textarea>
+		</fieldset>
+	<button type="Submit" class="btn">Sign Up</button>
+
+	</form>
+
+	<footer>
+    <p>Copyright The Code Review</p>
+	</footer>
+</body>

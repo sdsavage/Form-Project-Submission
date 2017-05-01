@@ -1,0 +1,203 @@
+
+* {
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+  color: #000;
+	font-family: 'Crimson Text', serif;
+	background-color: #fff;
+}
+
+
+
+
+/*****Title Div*****/
+
+
+.signup {
+	width: 90%;
+	margin: 0 auto 20px;
+	border-bottom: 2px solid #000;
+	padding-bottom: 25px;
+  position: relative;
+
+}
+
+.signup::before {
+	background: none;
+	border-bottom: 3px solid #000;
+	content:"";
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	right: 0px;
+	bottom: 2px;
+}
+
+
+ h1 {
+	background-color: #2F4F4F;
+	color: #fff;
+	margin-top: 0;
+	padding: 25px 0 ;
+	margin-bottom: 20px;
+}
+
+.inbox {
+	color: #4a4a4a;
+}
+
+
+h2 {
+  padding-bottom:10px;
+}
+
+.signup p {
+  padding-bottom: 20px;
+  
+}
+
+
+/*******Form Section********/
+
+form {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+	margin-top: 10px;
+	text-align: left;
+	padding-bottom: 25px;
+}
+
+
+legend {
+	font-size: 1.4em;
+  font-weight: bold;
+	color: #4a4a4a;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#contact-info {
+	border-bottom: solid 2.5px #000;
+}
+
+
+#contact-info label {
+  display: block;
+}
+
+label {
+	margin: 10px 0 10px 0;
+  color: #4a4a4a;
+}
+
+
+input[type="text"], #state {
+	width: 100%;
+	background-color: #EAEAEA;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 15px;
+  color: #4a4a4a;
+	font-size: 1em;
+  font-family: 'Crimson Text', serif;
+}
+
+
+
+
+input[type="text"]:last-of-type{
+	max-width: 50%;
+}
+
+#newsletter > label:first-of-type, 
+#newsletter > label:nth-of-type(5), 
+#newsletter > label:last-of-type
+{	
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	margin: 0 15px 15px 0;
+}
+
+
+
+textarea {
+	width:100%;
+	height: 90px;
+	border-radius: 5px;
+	background-color: #EAEAEA;
+
+}
+
+.btn {
+	padding: 15px 0;
+	background-color: #48D1CC;
+	color: #fff;
+	font-size: 1.2em;
+	border-radius: 7px;
+	border: none;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+/****Focus****/
+
+input[type="text"]:focus  {
+	background-color: #AFEEEE;
+}
+
+textarea:focus {
+  background-color: #AFEEEE;
+
+}
+
+
+/******Footer*****/
+
+
+footer {
+  color: #d3d3d3;
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+/* Media Queries*/
+
+@media (min-width: 768px) {
+	.signup, form {
+		max-width: 60%;
+	}
+	
+	#contact-info label {
+		display: inline-block;
+		width: 30%;
+	}
+
+	
+	input[type="text"], #state {
+		display: inline-block;
+		width: 69%;
+		margin-bottom: 14px;
+	}
+
+	input[type="text"]:last-of-type{
+	max-width: 30%;
+}
+	
+}
