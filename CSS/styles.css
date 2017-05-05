@@ -152,6 +152,11 @@ textarea {
 	width: 100%;
 }
 
+.newsformat{
+  	margin: 10px 0 10px 0;
+  	color: #4a4a4a;
+}
+
 /****Focus****/
 
 input[type="text"]:focus  {
