@@ -92,12 +92,12 @@ legend {
 
 
 #contact-info label {
-  display: block;
+  	display: block;
 }
 
 label {
 	margin: 10px 0 10px 0;
-  color: #4a4a4a;
+  	color: #4a4a4a;
 }
 
 
@@ -107,10 +107,24 @@ input[type="text"], #state {
 	border-radius: 5px;
 	border: none;
 	padding: 10px 15px;
-  color: #4a4a4a;
+  	color: #4a4a4a;
 	font-size: 1em;
-  font-family: 'Crimson Text', serif;
+  	font-family: 'Crimson Text', serif;
 }
+
+
+
+input[type="phone"], input[type="email"] {
+	width: 100%;
+	background-color: #EAEAEA;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 15px;
+  	color: #4a4a4a;
+	font-size: 1em;
+  	font-family: 'Crimson Text', serif;
+}
+
 
 
 
@@ -163,8 +177,16 @@ input[type="text"]:focus  {
 	background-color: #AFEEEE;
 }
 
+input[type="phone"]:focus {
+  	background-color: #AFEEEE;
+}
+
+input[type="email"]:focus {
+  	background-color: #AFEEEE;
+}
+
 textarea:focus {
-  background-color: #AFEEEE;
+  	background-color: #AFEEEE;
 
 }
 
@@ -173,7 +195,7 @@ textarea:focus {
 
 
 footer {
-  color: #d3d3d3;
+  	color: #d3d3d3;
 	font-style: italic;
 	margin-bottom: 50px;
 }
@@ -201,6 +223,14 @@ footer {
 		margin-bottom: 14px;
 	}
 
+	input[type="phone"], input[type="email"] {
+		display: inline-block;
+		width: 69%;
+		margin-bottom: 14px;
+	}
+	
+	
+	
 	input[type="text"]:last-of-type{
 	max-width: 30%;
 }
