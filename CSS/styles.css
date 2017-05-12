@@ -114,7 +114,7 @@ input[type="text"], #state {
 
 
 
-input[type="phone"], input[type="email"] {
+input[type="tel"], input[type="email"] {
 	width: 100%;
 	background-color: #EAEAEA;
 	border-radius: 5px;
@@ -177,7 +177,7 @@ input[type="text"]:focus  {
 	background-color: #AFEEEE;
 }
 
-input[type="phone"]:focus {
+input[type="tel"]:focus {
   	background-color: #AFEEEE;
 }
 
@@ -223,7 +223,7 @@ footer {
 		margin-bottom: 14px;
 	}
 
-	input[type="phone"], input[type="email"] {
+	input[type="tel"], input[type="email"] {
 		display: inline-block;
 		width: 69%;
 		margin-bottom: 14px;
